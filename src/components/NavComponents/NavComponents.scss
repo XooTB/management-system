@@ -1,0 +1,26 @@
+.navItem {
+  font-family: "Inter", sans-serif;
+  padding-left: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 20px;
+  display: flex;
+  height: 24px;
+  align-items: center;
+
+  .icon {
+    width: 20px;
+    margin-right: 24px;
+
+    svg {
+      width: 40px;
+    }
+  }
+  a {
+    color: white;
+  }
+}
+
+.subMenu {
+  padding-left: 20px;
+}
