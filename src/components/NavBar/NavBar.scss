@@ -6,8 +6,9 @@
   background-color: #161e25;
   color: white;
   font-family: "Inter", sans-serif;
+
   .logo {
-    margin: 55px 0px 0px 30px;
+    margin: 55px 0px 30px 30px;
   }
   .navArea {
     display: flex;
@@ -23,7 +24,8 @@
   }
 
   .user {
-    width: 20vw;
+    width: 19vw;
+    margin: auto;
     position: fixed;
     bottom: 30px;
   }

@@ -1,6 +1,7 @@
 .dashboard {
-  .main {
-    min-width: 80vw;
+  display: flex;
+  > .main {
+    width: 80vw;
     background-color: antiquewhite;
     min-height: 100vh;
     margin-left: 20vw;

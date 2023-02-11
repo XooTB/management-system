@@ -13,19 +13,23 @@ const Login = () => {
   };
 
   return (
-    <div className="Login">
-      <form onSubmit={HandleSubmit}>
+    <div className="Login w-full h-2/4 bg-cyan-600 mr-auto">
+      <form onSubmit={HandleSubmit} className="flex flex-col m-auto">
         <input
           type="email"
           placeholder="Enter your Email"
-          className="input input1"
+          className="w-2/3 h-10 p-5 rounded-md m-auto mt-20"
         />
         <input
           type="password"
           placeholder="Enter your passsword"
-          className="input input2"
+          className="w-2/3 h-10 p-5 rounded-md m-auto mt-10"
         />
-        <button type="submit" className="submitBtn" disabled={isLoading}>
+        <button
+          type="submit"
+          className="submitBtn m-auto mt-10 mb-10 bg-cyan-300 w-2/3 hover:bg-cyan-400"
+          disabled={isLoading}
+        >
           Submit
         </button>
       </form>

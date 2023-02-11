@@ -8,6 +8,7 @@ import NavBar from "../../components/NavBar/NavBar";
 //Page Imports
 import Overview from "../Overview/Overview";
 import Inventory from "../Inventory/Inventory";
+import Add from "../Add/Add";
 
 const Dashboard = () => {
   return (
@@ -17,6 +18,7 @@ const Dashboard = () => {
         <Routes>
           <Route path="/overview" element={<Overview />} />
           <Route path="/inventory" element={<Inventory />} />
+          <Route path="/add" element={<Add />} />
         </Routes>
       </div>
     </div>
